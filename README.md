@@ -18,12 +18,12 @@ see the  line "*.pdf filter=lfs diff=lfs merge=lfs -text" since I am uploading p
 
 7. Then use the following genric git commands to upload the files--
   
-   -- git add --all/ git add "filename"
+   - git add --all/ git add "filename"
   
-   -- git commit -m "first commit"
+   - git commit -m "first commit"
    
-   --git remote add origin https://github.com/crazy-rnd/git-camp.git
+   - git remote add origin https://github.com/crazy-rnd/git-camp.git
    
-   -- git push -u origin master /  git push -u origin master --force
+   - git push -u origin master /  git push -u origin master --force
    
  Sometimes, it may give error after executing the last command. Therefore, you can use --force attribute while pushing to the remote repository.
