@@ -1,5 +1,4 @@
 # git-camp
-Solutions of git problem
 
 How to upload a file more than 25 MB
 
