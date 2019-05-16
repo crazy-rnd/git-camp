@@ -1,6 +1,6 @@
 # git-camp
 
-How to upload a file more than 25 MB
+### How to upload a file more than 25 MB
 
 1. In order to upload a large file, you need to install a Git extension called Git Large File Storage (LFS). You can download 
 it from this link (https://git-lfs.github.com/).
