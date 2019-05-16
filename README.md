@@ -27,3 +27,11 @@ see the  line "*.pdf filter=lfs diff=lfs merge=lfs -text" since I am uploading p
    - **git push -u origin master /  git push -u origin master --force**
    
  Sometimes, it may give error after executing the last command. Therefore, you can use --force attribute while pushing to the remote repository.
+
+
+### How to remove/delete all files from remote repository
+
+ --Go to the local repository and run the following commands.
+ --**git pull**
+ --**git rm -r * **
+ --**git commit -m "Deleting all files"**
