@@ -35,6 +35,6 @@ see the  line "*.pdf filter=lfs diff=lfs merge=lfs -text" since I am uploading p
  
  --**git pull**
  
- --**git rm -r * **
+ --**git rm -r ***
  
  --**git commit -m "Deleting all files"**
