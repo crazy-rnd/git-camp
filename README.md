@@ -32,6 +32,9 @@ see the  line "*.pdf filter=lfs diff=lfs merge=lfs -text" since I am uploading p
 ### How to remove/delete all files from remote repository
 
  --Go to the local repository and run the following commands.
+ 
  --**git pull**
+ 
  --**git rm -r * **
+ 
  --**git commit -m "Deleting all files"**
