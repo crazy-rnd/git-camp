@@ -38,3 +38,17 @@ see the  line "*.pdf filter=lfs diff=lfs merge=lfs -text" since I am uploading p
  --**git rm -r ***
  
  --**git commit -m "Deleting all files"**
+ 
+ ### How to remove/delete sub module or nested repo
+Step 1: $ git rm --cached PMTool  
+Here PMTool is a nested repository. –cached will only remove files from the index. Your files will still be there.
+Step 2: Delete .git folder from PMTool folder
+Step 3: $ git add PMTool
+Step 4: $ git commit -m "fixing broken sub module"
+Step 5: $ git push
+
+References: https://www.youtube.com/watch?v=BEE66nNi-3c
+
+
+
+
